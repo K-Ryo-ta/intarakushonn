@@ -1,10 +1,10 @@
 import React from "react";
-import SentenceGenerator from "../components/SentenceGenerator";
+import Result from "../components/Result";
 
 const page = () => {
   return (
     <div>
-      <SentenceGenerator />
+      <Result />
     </div>
   );
 };
