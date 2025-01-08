@@ -12,29 +12,24 @@ const dummyResults = {
   grammar: [
     {
       id: 1,
-      original: "Me and him went to the store.",
-      correction: "He and I went to the store.",
+      original: "it is okay ",
+      correction: "it is acceptable",
     },
     {
       id: 2,
-      original: "I should of done that.",
-      correction: "I should have done that.",
-    },
-    {
-      id: 3,
-      original: "She don't like ice cream.",
-      correction: "She doesn't like ice cream.",
+      original: "The reason is that by making a profit",
+      correction: "This is because generating a profit...",
     },
   ],
   pronunciation: [
-    { id: 1, word: "comfortable", correction: "KUM-fer-tuh-buhl" },
-    { id: 2, word: "specifically", correction: "spuh-SI-fi-klee" },
-    { id: 3, word: "nuclear", correction: "NOO-klee-er" },
+    { id: 1, word: "commercially", correction: "kuh-MUR-shuh-lee" },
+    { id: 2, word: "profit", correction: "PRAH-fit" },
+    { id: 3, word: "budget", correction: "BUHJ-it" },
+    { id: 4, word: "improve", correction: "im-PROOV" },
   ],
   vocabulary: [
-    { id: 1, original: "big", suggestion: "enormous, massive, substantial" },
-    { id: 2, original: "good", suggestion: "excellent, superb, outstanding" },
-    { id: 3, original: "said", suggestion: "stated, mentioned, expressed" },
+    { id: 1, original: "see", suggestion: "watch" },
+    { id: 2, original: "more", suggestion: "greater" },
   ],
 };
 

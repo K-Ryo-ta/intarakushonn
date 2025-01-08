@@ -6,16 +6,12 @@ import { useRouter } from "next/navigation";
 
 // ダミーの文章リスト（実際のアプリケーションではAPIやより大きなデータセットを使用）
 const sentences = [
-  "The quick brown fox jumps over the lazy dog.",
-  "A journey of a thousand miles begins with a single step.",
-  "To be or not to be, that is the question.",
-  "All that glitters is not gold.",
-  "Where there's a will, there's a way.",
-  "Actions speak louder than words.",
-  "Every cloud has a silver lining.",
-  "Don't count your chickens before they hatch.",
-  "A picture is worth a thousand words.",
-  "When in Rome, do as the Romans do.",
+  "I believe that it is okay to have films that are intended to be commercially successful.How about you?",
+  "I believe it is acceptable for films to be made with the intention of being commercially successful. How do you feel about this?",
+  "The reason is that by making a profit, we will have more budget to spend on the next film, and the quality of the next film will improve.",
+  "This is because generating a profit allows for a larger budget to be allocated to the next film, which in turn improves its quality. ",
+  "As a result, more people will see the film, which will lead to more profits, larger budgets, and higher quality films. What’s your opinion?",
+  "As a result, more people will watch the film, leading to greater profits, larger budgets, and even higher-quality productions. What’s the reason behind your opinion?",
 ];
 
 export default function SentenceGenerator() {
