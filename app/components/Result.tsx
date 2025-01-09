@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 
 // 仮のデータ（実際のアプリケーションではAPIやデータベースから取得します）
 const dummyResults = {
-  grammar: [
+  phrase: [
     {
       id: 1,
       original: "it is okay ",
@@ -34,7 +34,7 @@ const dummyResults = {
 };
 
 export default function DebateResult() {
-  const [activeTab, setActiveTab] = useState("grammar");
+  const [activeTab, setActiveTab] = useState("phrase");
   const router = useRouter();
 
   return (
@@ -52,13 +52,13 @@ export default function DebateResult() {
             className="w-full"
           >
             <TabsList className="grid w-full grid-cols-3">
-              <TabsTrigger value="grammar">文法</TabsTrigger>
+              <TabsTrigger value="phrase">表現</TabsTrigger>
               <TabsTrigger value="pronunciation">発音</TabsTrigger>
               <TabsTrigger value="vocabulary">語句</TabsTrigger>
             </TabsList>
-            <TabsContent value="grammar">
+            <TabsContent value="phrase">
               <ScrollArea className="h-[400px] w-full rounded-md border p-4">
-                {dummyResults.grammar.map((item) => (
+                {dummyResults.phrase.map((item) => (
                   <div
                     key={item.id}
                     className="mb-4 p-2 bg-white rounded shadow"
